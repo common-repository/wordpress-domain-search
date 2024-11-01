@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('icons/icomoon.eot?xoz6nw');
+  src: url('icons/icomoon.eot?xoz6nw#iefix') format('embedded-opentype'),
+    url('icons/icomoon.ttf?xoz6nw') format('truetype'), url('icons/icomoon.woff?xoz6nw') format('woff'),
+    url('icons/icomoon.svg?xoz6nw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='wpdn-icon-'],
+[class*=' wpdn-icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes wpdn-spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.wpdn-icon-spinner {
+  -webkit-animation: wpdn-spin 2s infinite linear;
+  animation: wpdn-spin 2s infinite linear;
+}
+.wpdn-icon-spinner:before {
+  content: '\e903';
+}
+.wpdn-icon-search:before {
+  content: '\e900';
+}
+.wpdn-icon-check:before {
+  content: '\e901';
+}
+.wpdn-icon-close:before {
+  content: '\e902';
+}
+.wpdn-icon-remove:before {
+  content: '\e902';
+}
+.wpdn-icon-times:before {
+  content: '\e902';
+}
